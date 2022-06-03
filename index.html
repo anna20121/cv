@@ -4,65 +4,55 @@
 <head>
   <meta charset="utf-8">
   <title>anna's site</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Smooch&family=Zen+Loop&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="me.png" alt="anna's face" width='200' height='200'></td>
-      <td>
-        <h1>Anna</h1>
-        <p><em>student at <strong><a href="https://www.hamk.fi/">HAMK</a></strong></em></p>
-        <a href="contact.html">Contact me</a>
-        <p>I am an engineer student. I love tea and cats.</p>
-      </td>
-    </tr>
-  </table>
-  <hr size='3' color='black' noshade>
-  <h3>Skills</h3>
-  <table cellspacing="20">
-    <tr>
-      <td>UI/UX</td>
-      <td>⭐⭐⭐⭐</td>
-      <td>Python</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/anna20121">GitHub</a></td>
-      <td>⭐⭐⭐⭐</td>
-      <td>HTML</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>PLC</td>
-      <td>⭐⭐⭐</td>
-      <td>C</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="20">
-    <tr>
-      <td>2021</td>
-      <td>Robotics summer project in HAMK</td>
-    </tr>
-    <tr>
-      <td>2022</td>
-      <td>Internship in HAMK Smart research unit on Smart building project with Atte Partanen as supervisor</td>
-    </tr>
-    <tr>
-      <td>2022</td>
-      <td>Data Analysis project on smart controls for Enermix company</td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Hobbies</h3>
-  <ol>
-    <li>Reading</li>
-    <li>Drinking</li>
-    <li>Watching movies</li>
-  </ol>
-</body>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Anna</h1>
+    <h2>a programmer</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/me.png" alt="">
+      <h2>Hello.</h2>
+      <p class='intro'>I am a beginner web developer. Currently studying at HAMK, graduating in 2023. I really like what i do now and hope to make it my future career path.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="python-icon" src="https://cdn-icons-png.flaticon.com/512/2721/2721287.png" alt="flaticon-python-icon">
+        <h3>Python</h3>
+        <p>I am well aquired with Python. I used various of libraries, such as Bokeh, MatPlotLib, Seaborn, Pandas, Numpy, Tkinter and PyWebIO. Most of my experience in Python is connected to Data Analysis.</p>
+      </div>
+      <div class="skill-row">
+        <img class="html-icon" src="https://cdn-icons.flaticon.com/png/512/2085/premium/2085206.png?token=exp=1654092308~hmac=3fdae07e59358c7bd41ab71c60483876" alt="flaticon-icon">
+        <h3>HTML&CSS</h3>
+        <p>HTML is not a new tool for me, I used to study it in school. I find CSS interesting and also learning Bootstrap right now. Hope to learn JavaScript and React in the future.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <p class='contact-message'>Do not hesitate to contact me if your interested.</p>
+      <a class="btn" href="mailto:annakuz2002@icloud.com">CONTACT ME</a>
+    </div>
+  </div>
 
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/anna-kuznetsova-0a964b223/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/anna20121">GitHub</a>
+    <a class="footer-link" href="https://anna20121.github.io/cv/">Website</a>
+    <p class="copyright">© 2022 Anna Kuznetsova.</p>
+  </div>
+</body>
 </html>
